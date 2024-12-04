@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back Family Mobula7 Pilot Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .checklist-item {
+            margin: 10px 0;
+            padding: 10px;
+            background: #e7f3ff;
+            border-left: 5px solid #007bff;
+            border-radius: 5px;
+            position: relative;
+        }
+        .expand-btn {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            cursor: pointer;
+            font-size: 20px;
+            color: #007bff;
+        }
+        .details {
+            display: none;
+            margin-top: 10px;
+            padding: 10px;
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .dropdown select {
+            padding: 10px;
+            font-size: 16px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+        .intro {
+            margin-bottom: 20px;
+            background: #fffae6;
+            padding: 15px;
+            border-left: 5px solid #f4c242;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Back Family Mobula7 Pilot Guide</h1>
+
+        <!-- Introduction -->
+        <div class="intro">
+            <p>Welcome to the <strong>Back Family Mobula7 Pilot Guide</strong>. This guide will help you master the essential skills needed to pilot your Mobula7 drone safely and effectively. Each checklist item includes detailed information—just click the "+" to learn more.</p>
+        </div>
+
+        <!-- Dropdown to Select User -->
+        <div class="dropdown">
+            <label for="user-select">Choose a User:</label>
+            <select id="user-select">
+                <option value="Piper">Piper</option>
+                <option value="Teddy">Teddy</option>
+                <option value="Toby">Toby</option>
+                <option value="Dad">Dad</option>
+                <option value="Mom">Mom</option>
+            </select>
+        </div>
+
+        <!-- Ground School Section -->
+        <div class="section">
+            <h2>Level 1: Ground School</h2>
+            <p><em>Complete these essential skills before attempting any flight.</em></p>
+
+            <!-- Battery -->
+            <div class="checklist-item">
+                <label>
+                    <input type="checkbox" class="progress-checkbox" data-key="battery-knowledge"> Identify and Explain Battery Types
+                </label>
+                <span class="expand-btn">+</span>
+                <div class="details">
+                    <p><strong>Key Information:</strong></p>
+                    <ul>
+                        <li><strong>mAh:</strong> Battery capacity. Higher mAh means longer flight times but adds weight.</li>
+                        <li><strong>C-Rating:</strong> Discharge rate. Higher C-ratings give bursts of power but may wear out faster.</li>
+                        <li>Use 520mAh for practice flights and 300mAh for quick bursts of power.</li>
+                        <li>Always handle LiPo batteries carefully to avoid damage or hazards.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Power On -->
+            <div class="checklist-item">
+                <label>
+                    <input type="checkbox" class="progress-checkbox" data-key="power-on"> Power On the Mobula7 and Jumper T-Pro
+                </label>
+                <span class="expand-btn">+</span>
+                <div class="details">
+                    <p><strong>Key Steps:</strong></p>
+                    <ol>
+                        <li>Always power on the <strong>Jumper T-Pro</strong> transmitter first.</li>
+                        <li>Connect the battery to the Mobula7 and place it on a flat surface for gyroscope calibration.</li>
+                        <li>Ensure the transmitter is bound to the drone before arming.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- Goggles -->
+            <div class="checklist-item">
+                <label>
+                    <input type="checkbox" class="progress-checkbox" data-key="goggles-setup"> Set Up FPV Goggles and Match the Video Channel
+                </label>
+                <span class="expand-btn">+</span>
+                <div class="details">
+                    <p><strong>Key Steps:</strong></p>
+                    <ul>
+                        <li>Use the channel scanner on your FPV goggles to find the drone’s video feed.</li>
+                        <li>Match the frequency and band settings (e.g., Raceband 3) on both the goggles and the drone.</li>
+                        <li>Adjust the goggles’ focus for a clear view and test the DVR (if equipped) for recording.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Safety -->
+            <div class="checklist-item">
+                <label>
+                    <input type="checkbox" class="progress-checkbox" data-key="safety-tips"> Follow General Safety Tips
+                </label>
+                <span class="expand-btn">+</span>
+                <div class="details">
+                    <p><strong>Key Safety Tips:</strong></p>
+                    <ul>
+                        <li>Never fly over water—it’s a disaster for electronics if the drone crashes.</li>
+                        <li>Avoid flying near people to prevent accidents or injuries.</li>
+                        <li>Don’t chase or attack animals, including even Chippy. This can harm both the drone and the animal.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+      <!-- Navigation -->
+<div class="navigation" style="display: flex; justify-content: flex-end; margin-top: 20px;">
+    <a href="chapter2.html">Go to Chapter 2: Simulator Basics &gt;&gt;</a>
+</div>
+
+
+        <footer>
+            <p>Happy Flying! 🚁 | Created for the Back Family</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript for Progress Tracking and Expandable Details -->
+    <script>
+        const userSelect = document.getElementById("user-select");
+        const checkboxes = document.querySelectorAll(".progress-checkbox");
+        const expandButtons = document.querySelectorAll(".expand-btn");
+
+        function loadProgress(user) {
+            checkboxes.forEach(checkbox => {
+                const key = `${user}-${checkbox.dataset.key}`;
+                checkbox.checked = localStorage.getItem(key) === "true";
+            });
+        }
+
+        function saveProgress(user) {
+            checkboxes.forEach(checkbox => {
+                const key = `${user}-${checkbox.dataset.key}`;
+                localStorage.setItem(key, checkbox.checked);
+            });
+        }
+
+        userSelect.addEventListener("change", () => {
+            const user = userSelect.value;
+            loadProgress(user);
+        });
+
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener("change", () => {
+                const user = userSelect.value;
+                saveProgress(user);
+            });
+        });
+
+        expandButtons.forEach(button => {
+            button.addEventListener("click", () => {
+                const details = button.nextElementSibling;
+                details.style.display = details.style.display === "block" ? "none" : "block";
+                button.textContent = details.style.display === "block" ? "−" : "+";
+            });
+        });
+
+        loadProgress(userSelect.value);
+    </script>
+</body>
+</html>

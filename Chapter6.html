@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back Family Mobula7 Pilot Guide: Chapter 6</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .checklist-item {
+            margin: 10px 0;
+            padding: 10px;
+            background: #e7f3ff;
+            border-left: 5px solid #007bff;
+            border-radius: 5px;
+            position: relative;
+        }
+        .expand-btn {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            cursor: pointer;
+            font-size: 20px;
+            color: #007bff;
+        }
+        .details {
+            display: none;
+            margin-top: 10px;
+            padding: 10px;
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .dropdown select {
+            padding: 10px;
+            font-size: 16px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+        .intro {
+            margin-bottom: 20px;
+            background: #fffae6;
+            padding: 15px;
+            border-left: 5px solid #f4c242;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Back Family Mobula7 Pilot Guide: Chapter 6</h1>
+
+        <!-- Introduction -->
+        <div class="intro">
+            <p>Welcome to <strong>Chapter 6: Advanced Skills</strong>. This chapter will teach you fine-tuning techniques, advanced maneuvers, and troubleshooting common problems. Perfect for those ready to push their piloting skills to the next level!</p>
+        </div>
+
+        <!-- Dropdown to Select User -->
+        <div class="dropdown">
+            <label for="user-select">Choose a User:</label>
+            <select id="user-select">
+                <option value="Piper">Piper</option>
+                <option value="Teddy">Teddy</option>
+                <option value="Toby">Toby</option>
+                <option value="Dad">Dad</option>
+                <option value="Mom">Mom</option>
+            </select>
+        </div>
+
+        <!-- Advanced Skills Section -->
+        <div class="section">
+            <h2>Advanced Skills</h2>
+            <p><em>Master these advanced techniques to elevate your flying skills.</em></p>
+
+            <!-- PID Tuning -->
+            <div class="checklist-item">
+                <label>
+                    <input type="checkbox" class="progress-checkbox" data-key="pid-tuning"> Fine-Tune PID Settings
+                </label>
+                <span class="expand-btn">+</span>
+                <div class="details">
+                    <p><strong>What are PID Settings?</strong></p>
+                    <ul>
+                        <li><strong>P:</strong> Proportional - Controls responsiveness to inputs.</li>
+                        <li><strong>I:</strong> Integral - Compensates for small errors over time.</li>
+                        <li><strong>D:</strong> Derivative - Smooths out abrupt changes in input.</li>
+                    </ul>
+                    <p>Use the Betaflight Configurator to adjust these settings. Start small and test after each change.</p>
+                </div>
+            </div>
+
+            <!-- Flying Tight Gaps at Speed -->
+            <div class="checklist-item">
+                <label>
+                    <input type="checkbox" class="progress-checkbox" data-key="tight-gaps-speed"> Fly Tight Gaps at Speed
+                </label>
+                <span class="expand-btn">+</span>
+                <div class="details">
+                    <p>Practice flying through tighter spaces while maintaining speed:</p>
+                    <ul>
+                        <li>Use cones, chairs, or doorways as practice obstacles.</li>
+                        <li>Focus on maintaining a steady throttle and minimizing stick movements.</li>
+                        <li>Gradually increase speed as your confidence improves.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Orbiting a Point -->
+            <div class="checklist-item">
+                <label>
+                    <input type="checkbox" class="progress-checkbox" data-key="orbiting-point"> Orbit a Point of Interest
+                </label>
+                <span class="expand-btn">+</span>
+                <div class="details">
+                    <p>This maneuver requires coordinated yaw and roll:</p>
+                    <ul>
+                        <li>Choose a stationary object to orbit (e.g., a cone or tree).</li>
+                        <li>Combine yaw and roll to create a smooth circular motion.</li>
+                        <li>Keep your altitude and speed consistent throughout.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Matty Flips -->
+            <div class="checklist-item">
+                <label>
+                    <input type="checkbox" class="progress-checkbox" data-key="matty-flips"> Perform a Matty Flip
+                </label>
+                <span class="expand-btn">+</span>
+                <div class="details">
+                    <p>A Matty Flip combines a backward loop with a roll:</p>
+                    <ul>
+                        <li>Gain altitude and approach an object.</li>
+                        <li>Pitch backward to loop over the object.</li>
+                        <li>Roll to stabilize the drone and complete the maneuver.</li>
+                    </ul>
+                    <p>Practice this in a simulator before attempting in real life.</p>
+                </div>
+            </div>
+
+            <!-- Flight Optimization -->
+            <div class="checklist-item">
+                <label>
+                    <input type="checkbox" class="progress-checkbox" data-key="flight-optimization"> Optimize Flight Performance
+                </label>
+                <span class="expand-btn">+</span>
+                <div class="details">
+                    <p>Tips to optimize your drone’s performance:</p>
+                    <ul>
+                        <li>Balance propellers to reduce vibrations.</li>
+                        <li>Use lightweight batteries for freestyle maneuvers.</li>
+                        <li>Keep your drone clean and free of debris.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Troubleshooting -->
+            <div class="checklist-item">
+                <label>
+                    <input type="checkbox" class="progress-checkbox" data-key="troubleshooting"> Troubleshoot Common Issues
+                </label>
+                <span class="expand-btn">+</span>
+                <div class="details">
+                    <p>Common issues and solutions:</p>
+                    <ul>
+                        <li><strong>Binding Problems:</strong> Rebind the transmitter and drone following the manual.</li>
+                        <li><strong>Video Feed Loss:</strong> Check goggles and ensure they are on the correct frequency.</li>
+                        <li><strong>Motor Failure:</strong> Inspect for debris or loose connections; replace if necessary.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+       <!-- Navigation -->
+<div class="navigation" style="display: flex; justify-content: space-between; margin-top: 20px;">
+    <a href="chapter5.html" style="text-align: left;">&lt;&lt; Back to Chapter 5</a>
+    <a href="super-awesome-tricks.html" style="text-align: right;">Go to Super Awesome Tricks &gt;&gt;</a>
+</div>
+
+
+        <footer>
+            <p>Happy Flying! 🚁 | Created for the Back Family</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript for Progress Tracking and Expandable Details -->
+    <script>
+        const userSelect = document.getElementById("user-select");
+        const checkboxes = document.querySelectorAll(".progress-checkbox");
+        const expandButtons = document.querySelectorAll(".expand-btn");
+
+        // Load user progress from localStorage
+        function loadProgress(user) {
+            checkboxes.forEach(checkbox => {
+                const key = `${user}-${checkbox.dataset.key}`;
+                checkbox.checked = localStorage.getItem(key) === "true";
+            });
+        }
+
+        // Save progress to localStorage
+        function saveProgress(user) {
+            checkboxes.forEach(checkbox => {
+                const key = `${user}-${checkbox.dataset.key}`;
+                localStorage.setItem(key, checkbox.checked);
+            });
+        }
+
+        // Add event listener for expand/collapse functionality
+        expandButtons.forEach(button => {
+            button.addEventListener("click", () => {
+                const details = button.nextElementSibling;
+                if (details.style.display === "block") {
+                    details.style.display = "none";
+                    button.textContent = "+"; // Reset to plus when collapsed
+                } else {
+                    details.style.display = "block";
+                    button.textContent = "−"; // Change to minus when expanded
+                }
+            });
+        });
+
+        // Event listener for user dropdown selection
+        userSelect.addEventListener("change", () => {
+            const user = userSelect.value;
+            loadProgress(user);
+        });
+
+        // Save progress on checkbox change
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener("change", () => {
+                const user = userSelect.value;
+                saveProgress(user);
+            });
+        });
+
+        // Initialize the first user's progress
+        loadProgress(userSelect.value);
+    </script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back Family Mobula7 Pilot Guide: Super Awesome Tricks</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .checklist-item {
+            margin: 10px 0;
+            padding: 10px;
+            background: #e7f3ff;
+            border-left: 5px solid #007bff;
+            border-radius: 5px;
+            position: relative;
+        }
+        .expand-btn {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            cursor: pointer;
+            font-size: 20px;
+            color: #007bff;
+        }
+        .details {
+            display: none;
+            margin-top: 10px;
+            padding: 10px;
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .dropdown select {
+            padding: 10px;
+            font-size: 16px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+        .intro {
+            margin-bottom: 20px;
+            background: #fffae6;
+            padding: 15px;
+            border-left: 5px solid #f4c242;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Back Family Mobula7 Pilot Guide: Super Awesome Tricks</h1>
+
+        <!-- Introduction -->
+        <div class="intro">
+            <p>Welcome to the <strong>Super Awesome Tricks</strong> section! This chapter is all about freestyle and acrobatic moves. Start with simple tricks and progress to more advanced ones as your skills improve. Click the "+" to learn how to perform each trick!</p>
+        </div>
+
+        <!-- Super Awesome Tricks Section -->
+        <div class="section">
+            <h2>Tricks to Master</h2>
+            <p><em>Start with simple tricks and work your way up to advanced maneuvers!</em></p>
+
+            <!-- Barrel Roll -->
+            <div class="checklist-item">
+                <label>Barrel Roll</label>
+                <span class="expand-btn">+</span>
+                <div class="details">
+                    <p><strong>How to Perform:</strong></p>
+                    <ul>
+                        <li>Gain altitude to give yourself room to recover.</li>
+                        <li>Push the right stick to the left or right to roll the drone along its longitudinal axis.</li>
+                        <li>Center the stick once the roll is complete to stabilize the drone.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Flip -->
+            <div class="checklist-item">
+                <label>Flip</label>
+                <span class="expand-btn">+</span>
+                <div class="details">
+                    <p><strong>How to Perform:</strong></p>
+                    <ul>
+                        <li>Gain altitude to ensure you have recovery space.</li>
+                        <li>Pull the right stick back for a backward flip or push forward for a front flip.</li>
+                        <li>Center the stick after completing the flip to level out.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Split-S -->
+            <div class="checklist-item">
+                <label>Split-S</label>
+                <span class="expand-btn">+</span>
+                <div class="details">
+                    <p><strong>How to Perform:</strong></p>
+                    <ul>
+                        <li>Gain altitude and fly forward at a steady pace.</li>
+                        <li>Roll the drone upside down using the right stick.</li>
+                        <li>Pull back on the right stick to complete a dive, leveling out at the bottom.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Orbit -->
+            <div class="checklist-item">
+                <label>Orbit</label>
+                <span class="expand-btn">+</span>
+                <div class="details">
+                    <p><strong>How to Perform:</strong></p>
+                    <ul>
+                        <li>Select a stationary object to orbit, such as a tree or pole.</li>
+                        <li>Combine yaw and roll inputs to create a smooth circular motion.</li>
+                        <li>Adjust throttle to maintain altitude as needed.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Matty Flip -->
+            <div class="checklist-item">
+                <label>Matty Flip</label>
+                <span class="expand-btn">+</span>
+                <div class="details">
+                    <p><strong>How to Perform:</strong></p>
+                    <ul>
+                        <li>Gain altitude and fly towards an object, such as a tree branch.</li>
+                        <li>Fly under the object, then pull back on the right stick to flip backward.</li>
+                        <li>Level out after completing the flip.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Power Loop -->
+            <div class="checklist-item">
+                <label>Power Loop</label>
+                <span class="expand-btn">+</span>
+                <div class="details">
+                    <p><strong>How to Perform:</strong></p>
+                    <ul>
+                        <li>Gain altitude and fly forward towards an object.</li>
+                        <li>Pitch back to loop around the object.</li>
+                        <li>Throttle up during the loop to maintain momentum and control.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="navigation" style="display: flex; justify-content: flex-start; margin-top: 20px;">
+            <a href="chapter6.html">&lt;&lt; Back to Chapter 6: Advanced Skills</a>
+        </div>
+
+        <footer>
+            <p>Happy Flying! 🚁 | Created for the Back Family</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript for Expandable Details -->
+    <script>
+        const expandButtons = document.querySelectorAll(".expand-btn");
+
+        expandButtons.forEach(button => {
+            button.addEventListener("click", () => {
+                const details = button.nextElementSibling;
+                if (details.style.display === "block") {
+                    details.style.display = "none";
+                    button.textContent = "+"; // Reset to plus when collapsed
+                } else {
+                    details.style.display = "block";
+                    button.textContent = "−"; // Change to minus when expanded
+                }
+            });
+        });
+    </script>
+</body>
+</html>
